@@ -1,0 +1,9 @@
+{
+    "enabled_categories": [],
+    "max_pages_polymarket": 50,
+    "max_pages_kalshi": 25,
+    "min_roi_percent": 0.1,
+    "min_profit_threshold": 0.001,
+    "scan_interval_seconds": 5,
+    "notifications_enabled": true
+}

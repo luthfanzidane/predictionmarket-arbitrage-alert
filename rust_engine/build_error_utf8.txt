@@ -1,0 +1,90 @@
+﻿C:\Users\LENOVO\.carg
+o\bin\cargo.exe :    
+Compiling 
+proc-macro2 v1.0.106
+At line:1 char:1
++ C:\Users\LENOVO\.ca
+rgo\bin\cargo.exe 
+check > 
+build_error.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : 
+NotSpecified: (      
+ Compiling proc-macr 
+   o2 
+v1.0.106:String) [   
+ ], RemoteException
+    + 
+FullyQualifiedError  
+  Id : 
+NativeCommandErr    
+or
+ 
+   Compiling quote 
+v1.0.44
+   Compiling 
+windows_x86_64_msvc 
+v0.53.1
+   Compiling 
+parking_lot_core 
+v0.9.12
+    Checking 
+lock_api v0.4.14
+    Checking 
+writeable v0.6.2
+    Checking litemap 
+v0.8.1
+    Checking itoa 
+v1.0.17
+error: linker 
+`link.exe` not found
+  |
+  = note: program 
+not found
+
+note: the msvc 
+targets depend on 
+the msvc linker but 
+`link.exe` was not 
+found
+
+note: please ensure 
+that Visual Studio 
+2017 or later, or 
+Build Tools for 
+Visual Studio were 
+installed with the 
+Visual C++ option.
+
+note: VS Code is a 
+different product, 
+and is not 
+sufficient.
+
+error: could not 
+compile `windows_x86_
+64_msvc` (build 
+script) due to 1 
+previous error
+warning: build 
+failed, waiting for 
+other jobs to 
+finish...
+error: could not 
+compile 
+`parking_lot_core` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `quote` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile 
+`proc-macro2` (build 
+script) due to 1 
+previous error
